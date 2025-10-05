@@ -1,0 +1,154 @@
+/* Sample CSS with various web features for testing */
+
+.modal {
+  display: flex; /* Baseline: widely-available */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Baseline: widely-available */
+  height: 100vh; /* Baseline: widely-available */
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px); /* Baseline: newly-available */
+  z-index: 1000;
+}
+
+.modal-content {
+  margin: auto;
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 500px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  
+  /* Container queries - limited availability */
+  container-type: inline-size;
+}
+
+@container (min-width: 400px) {
+  .modal-content {
+    padding: 3rem;
+    max-width: 600px;
+  }
+}
+
+.modal-header {
+  display: grid; /* Baseline: widely-available */
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 1rem; /* Baseline: widely-available */
+  margin-bottom: 1.5rem;
+}
+
+.modal-title {
+  font-size: clamp(1.5rem, 4vw, 2rem); /* Baseline: newly-available */
+  margin: 0;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.close-button:hover {
+  background-color: #f0f0f0;
+}
+
+.close-button:focus-visible { /* Baseline: newly-available */
+  outline: 2px solid #007acc;
+  outline-offset: 2px;
+}
+
+.modal-body {
+  line-height: 1.6;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button-primary {
+  background: linear-gradient(135deg, #007acc, #0056b3); /* Baseline: widely-available */
+  color: white;
+}
+
+.button-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 122, 204, 0.3);
+}
+
+.button-secondary {
+  background: transparent;
+  color: #666;
+  border: 1px solid #ddd;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 600px) {
+  .modal {
+    padding: 1rem;
+  }
+  
+  .modal-content {
+    margin: 0;
+    max-width: none;
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: auto;
+    border-radius: 0;
+  }
+  
+  .modal-actions {
+    flex-direction: column;
+  }
+  
+  .button {
+    width: 100%;
+  }
+}
+
+/* Progressive enhancement with modern features */
+@supports (aspect-ratio: 16/9) {
+  .modal-video {
+    aspect-ratio: 16/9; /* Baseline: newly-available */
+    width: 100%;
+  }
+}
+
+@supports (display: contents) {
+  .modal-wrapper {
+    display: contents; /* Baseline: widely-available */
+  }
+}
+
+/* CSS custom properties */
+:root {
+  --modal-z-index: 1000; /* Baseline: widely-available */
+  --modal-backdrop: rgba(0, 0, 0, 0.5);
+  --modal-border-radius: 8px;
+}
+
+.modal {
+  z-index: var(--modal-z-index);
+  background: var(--modal-backdrop);
+}
+
+.modal-content {
+  border-radius: var(--modal-border-radius);
+}

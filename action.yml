@@ -1,0 +1,65 @@
+name: "BaselineFlow - Baseline Web Feature Validation"
+description: "AI-powered CI/CD integration for validating web feature compatibility against Baseline standards"
+author: "BaselineFlow Team"
+
+branding:
+  icon: "check-circle"
+  color: "blue"
+
+inputs:
+  path:
+    description: "Path to analyze (relative to repository root)"
+    required: false
+    default: "."
+  
+  config:
+    description: "Path to BaselineFlow configuration file"
+    required: false
+    default: ""
+  
+  target:
+    description: "Baseline target level (widely-available, newly-available, limited)"
+    required: false
+    default: "widely-available"
+  
+  fail-on-error:
+    description: "Fail the action if compatibility errors are found"
+    required: false
+    default: "true"
+  
+  fail-on-warning:
+    description: "Fail the action if compatibility warnings are found"
+    required: false
+    default: "false"
+  
+  output-file:
+    description: "Output file path for the analysis report"
+    required: false
+    default: "baselineflow-report.json"
+  
+  ignore-patterns:
+    description: "Comma-separated list of file patterns to ignore"
+    required: false
+    default: ""
+  
+  framework:
+    description: "Framework hint for better analysis (react, vue, angular, svelte, auto)"
+    required: false
+    default: "auto"
+
+outputs:
+  compatibility-score:
+    description: "Overall compatibility score (0-100)"
+  
+  errors-count:
+    description: "Number of compatibility errors found"
+  
+  warnings-count:
+    description: "Number of compatibility warnings found"
+  
+  report-file:
+    description: "Path to the generated report file"
+
+runs:
+  using: "node20"
+  main: "dist/action.js"

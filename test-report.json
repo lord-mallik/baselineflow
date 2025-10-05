@@ -1,0 +1,1695 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "timestamp": "2025-10-02T12:18:49.583Z",
+    "tool": "BaselineFlow"
+  },
+  "summary": {
+    "totalFiles": 2,
+    "totalFeatures": 79,
+    "compatibilityScore": 71,
+    "counts": {
+      "errors": 29,
+      "warnings": 6,
+      "suggestions": 44
+    }
+  },
+  "violations": [
+    {
+      "feature": "display",
+      "featureId": "display",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 4,
+        "column": 3
+      },
+      "context": "display: flex",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "117",
+        "safari": "18",
+        "edge": "117",
+        "chrome_android": "117",
+        "safari_ios": "18"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "position",
+      "featureId": "position",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 5,
+        "column": 3
+      },
+      "context": "position: fixed",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "top",
+      "featureId": "top",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 6,
+        "column": 3
+      },
+      "context": "top: 0",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "left",
+      "featureId": "left",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 7,
+        "column": 3
+      },
+      "context": "left: 0",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "width",
+      "featureId": "width",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 8,
+        "column": 3
+      },
+      "context": "width: 100vw",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "height",
+      "featureId": "height",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 9,
+        "column": 3
+      },
+      "context": "height: 100vh",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "margin",
+      "featureId": "margin",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 16,
+        "column": 3
+      },
+      "context": "margin: auto",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "max-width",
+      "featureId": "max-width",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 20,
+        "column": 3
+      },
+      "context": "max-width: 500px",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "max-width",
+      "featureId": "max-width",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 30,
+        "column": 5
+      },
+      "context": "max-width: 600px",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "display",
+      "featureId": "display",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 35,
+        "column": 3
+      },
+      "context": "display: grid",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "117",
+        "safari": "18",
+        "edge": "117",
+        "chrome_android": "117",
+        "safari_ios": "18"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "align-items",
+      "featureId": "align-items",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 37,
+        "column": 3
+      },
+      "context": "align-items: center",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "margin-bottom",
+      "featureId": "margin-bottom",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 39,
+        "column": 3
+      },
+      "context": "margin-bottom: 1.5rem",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "clamp",
+      "featureId": "clamp",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 43,
+        "column": 3
+      },
+      "context": "font-size: clamp(1.5rem, 4vw, 2rem)",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {},
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives.",
+      "alternative": "Use calc() with min/max functions"
+    },
+    {
+      "feature": "margin",
+      "featureId": "margin",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 44,
+        "column": 3
+      },
+      "context": "margin: 0",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "transition",
+      "featureId": "transition",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 54,
+        "column": 3
+      },
+      "context": "transition: background-color 0.2s ease",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "117",
+        "safari": "18",
+        "edge": "117",
+        "chrome_android": "117",
+        "safari_ios": "18"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "display",
+      "featureId": "display",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 71,
+        "column": 3
+      },
+      "context": "display: flex",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "117",
+        "safari": "18",
+        "edge": "117",
+        "chrome_android": "117",
+        "safari_ios": "18"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "end",
+      "featureId": "end",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 72,
+        "column": 3
+      },
+      "context": "justify-content: flex-end",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "margin-top",
+      "featureId": "margin-top",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 74,
+        "column": 3
+      },
+      "context": "margin-top: 2rem",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "transition",
+      "featureId": "transition",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 83,
+        "column": 3
+      },
+      "context": "transition: all 0.2s ease",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "117",
+        "safari": "18",
+        "edge": "117",
+        "chrome_android": "117",
+        "safari_ios": "18"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "color",
+      "featureId": "color",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 88,
+        "column": 3
+      },
+      "context": "color: white",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "93",
+        "firefox": "92",
+        "edge": "93",
+        "chrome_android": "93",
+        "firefox_android": "92"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "color",
+      "featureId": "color",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 98,
+        "column": 3
+      },
+      "context": "color: #666",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "93",
+        "firefox": "92",
+        "edge": "93",
+        "chrome_android": "93",
+        "firefox_android": "92"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "margin",
+      "featureId": "margin",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 109,
+        "column": 5
+      },
+      "context": "margin: 0",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "max-width",
+      "featureId": "max-width",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 110,
+        "column": 5
+      },
+      "context": "max-width: none",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "width",
+      "featureId": "width",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 111,
+        "column": 5
+      },
+      "context": "width: 100%",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "max-height",
+      "featureId": "max-height",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 112,
+        "column": 5
+      },
+      "context": "max-height: 100vh",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "width",
+      "featureId": "width",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 122,
+        "column": 5
+      },
+      "context": "width: 100%",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "width",
+      "featureId": "width",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 130,
+        "column": 5
+      },
+      "context": "width: 100%",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "125",
+        "edge": "125",
+        "chrome_android": "125"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "display",
+      "featureId": "display",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 136,
+        "column": 5
+      },
+      "context": "display: contents",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "117",
+        "safari": "18",
+        "edge": "117",
+        "chrome_android": "117",
+        "safari_ios": "18"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    },
+    {
+      "feature": "display",
+      "featureId": "display",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 134,
+        "column": 1
+      },
+      "context": "@supports (display: contents) {\n  .modal-wrapper {\n    display: contents; /* Baseline: widely-availa...",
+      "baseline": "limited",
+      "severity": "error",
+      "browsers": {
+        "chrome": "117",
+        "safari": "18",
+        "edge": "117",
+        "chrome_android": "117",
+        "safari_ios": "18"
+      },
+      "suggestion": "Consider using a polyfill or waiting for broader browser support. Check caniuse.com for alternatives."
+    }
+  ],
+  "warnings": [
+    {
+      "feature": "backdrop-filter",
+      "featureId": "backdrop-filter",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 11,
+        "column": 3
+      },
+      "context": "backdrop-filter: blur(10px)",
+      "baseline": "newly-available",
+      "severity": "warning",
+      "browsers": {
+        "chrome": "76",
+        "firefox": "103",
+        "safari": "18",
+        "edge": "79",
+        "chrome_android": "76",
+        "firefox_android": "103",
+        "safari_ios": "18"
+      },
+      "suggestion": "Feature is newly available in Baseline. Consider progressive enhancement or polyfills for older browsers."
+    },
+    {
+      "feature": "container-type",
+      "featureId": "container-type",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 24,
+        "column": 3
+      },
+      "context": "container-type: inline-size",
+      "baseline": "newly-available",
+      "severity": "warning",
+      "browsers": {
+        "chrome": "105",
+        "firefox": "110",
+        "safari": "16",
+        "edge": "105",
+        "chrome_android": "105",
+        "firefox_android": "110",
+        "safari_ios": "16"
+      },
+      "suggestion": "Feature is newly available in Baseline. Consider progressive enhancement or polyfills for older browsers."
+    },
+    {
+      "feature": "linear-gradient",
+      "featureId": "linear-gradient",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 87,
+        "column": 3
+      },
+      "context": "background: linear-gradient(135deg, #007acc, #0056b3)",
+      "baseline": "newly-available",
+      "severity": "warning",
+      "browsers": {
+        "chrome": "111",
+        "firefox": "127",
+        "safari": "16.2",
+        "edge": "111",
+        "chrome_android": "111",
+        "firefox_android": "127",
+        "safari_ios": "16.2"
+      },
+      "suggestion": "Feature is newly available in Baseline. Consider progressive enhancement or polyfills for older browsers."
+    },
+    {
+      "feature": "overflow-y",
+      "featureId": "overflow-y",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 113,
+        "column": 5
+      },
+      "context": "overflow-y: auto",
+      "baseline": "newly-available",
+      "severity": "warning",
+      "browsers": {
+        "chrome": "90",
+        "firefox": "81",
+        "safari": "16",
+        "edge": "90",
+        "chrome_android": "90",
+        "firefox_android": "81",
+        "safari_ios": "16"
+      },
+      "suggestion": "Feature is newly available in Baseline. Consider progressive enhancement or polyfills for older browsers."
+    },
+    {
+      "feature": "@container",
+      "featureId": "@container",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 27,
+        "column": 1
+      },
+      "context": "@container (min-width: 400px)",
+      "baseline": "newly-available",
+      "severity": "warning",
+      "browsers": {
+        "chrome": "105",
+        "firefox": "110",
+        "safari": "16",
+        "edge": "105",
+        "chrome_android": "105",
+        "firefox_android": "110",
+        "safari_ios": "16"
+      },
+      "suggestion": "Feature is newly available in Baseline. Consider progressive enhancement or polyfills for older browsers."
+    },
+    {
+      "feature": "container-queries",
+      "featureId": "container-queries",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 27,
+        "column": 1
+      },
+      "context": "@container (min-width: 400px)",
+      "baseline": "newly-available",
+      "severity": "warning",
+      "browsers": {
+        "chrome": "105",
+        "firefox": "110",
+        "safari": "16",
+        "edge": "105",
+        "chrome_android": "105",
+        "firefox_android": "110",
+        "safari_ios": "16"
+      },
+      "suggestion": "Feature is newly available in Baseline. Consider progressive enhancement or polyfills for older browsers.",
+      "alternative": "Use media queries as fallback"
+    }
+  ],
+  "suggestions": [
+    {
+      "feature": "async-await",
+      "featureId": "async-await",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.tsx",
+        "line": 105,
+        "column": 0
+      },
+      "context": "await navigator.share({",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "55",
+        "firefox": "52",
+        "safari": "10.1",
+        "edge": "15",
+        "chrome_android": "55",
+        "firefox_android": "52",
+        "safari_ios": "10.3"
+      }
+    },
+    {
+      "feature": "async-await",
+      "featureId": "async-await",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.tsx",
+        "line": 116,
+        "column": 0
+      },
+      "context": "await navigator.clipboard.writeText(window.location.href);",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "55",
+        "firefox": "52",
+        "safari": "10.1",
+        "edge": "15",
+        "chrome_android": "55",
+        "firefox_android": "52",
+        "safari_ios": "10.3"
+      }
+    },
+    {
+      "feature": "async-await",
+      "featureId": "async-await",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.tsx",
+        "line": 122,
+        "column": 0
+      },
+      "context": "// Modern async/await with fetch (Baseline: widely-available)",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "55",
+        "firefox": "52",
+        "safari": "10.1",
+        "edge": "15",
+        "chrome_android": "55",
+        "firefox_android": "52",
+        "safari_ios": "10.3"
+      }
+    },
+    {
+      "feature": "fetch",
+      "featureId": "fetch",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.tsx",
+        "line": 122,
+        "column": 0
+      },
+      "context": "// Modern async/await with fetch (Baseline: widely-available)",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "42",
+        "firefox": "39",
+        "safari": "10.1",
+        "edge": "14",
+        "chrome_android": "42",
+        "firefox_android": "39",
+        "safari_ios": "10.3"
+      },
+      "polyfill": "whatwg-fetch polyfill",
+      "alternative": "Use XMLHttpRequest or axios library"
+    },
+    {
+      "feature": "async-await",
+      "featureId": "async-await",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.tsx",
+        "line": 125,
+        "column": 0
+      },
+      "context": "const response = await fetch('/api/submit', {",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "55",
+        "firefox": "52",
+        "safari": "10.1",
+        "edge": "15",
+        "chrome_android": "55",
+        "firefox_android": "52",
+        "safari_ios": "10.3"
+      }
+    },
+    {
+      "feature": "fetch",
+      "featureId": "fetch",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.tsx",
+        "line": 125,
+        "column": 0
+      },
+      "context": "const response = await fetch('/api/submit', {",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "42",
+        "firefox": "39",
+        "safari": "10.1",
+        "edge": "14",
+        "chrome_android": "42",
+        "firefox_android": "39",
+        "safari_ios": "10.3"
+      },
+      "polyfill": "whatwg-fetch polyfill",
+      "alternative": "Use XMLHttpRequest or axios library"
+    },
+    {
+      "feature": "async-await",
+      "featureId": "async-await",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.tsx",
+        "line": 137,
+        "column": 0
+      },
+      "context": "const result = await response.json();",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "55",
+        "firefox": "52",
+        "safari": "10.1",
+        "edge": "15",
+        "chrome_android": "55",
+        "firefox_android": "52",
+        "safari_ios": "10.3"
+      }
+    },
+    {
+      "feature": "array-includes",
+      "featureId": "array-includes",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.tsx",
+        "line": 202,
+        "column": 0
+      },
+      "context": "{actions.includes('share') && (",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "47",
+        "firefox": "43",
+        "safari": "10",
+        "edge": "14",
+        "chrome_android": "47",
+        "firefox_android": "43",
+        "safari_ios": "10"
+      },
+      "polyfill": "core-js polyfill"
+    },
+    {
+      "feature": "string-includes",
+      "featureId": "string-includes",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.tsx",
+        "line": 202,
+        "column": 0
+      },
+      "context": "{actions.includes('share') && (",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "41",
+        "firefox": "40",
+        "safari": "9",
+        "edge": "12",
+        "chrome_android": "41",
+        "firefox_android": "40",
+        "safari_ios": "9"
+      }
+    },
+    {
+      "feature": "map",
+      "featureId": "map",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.tsx",
+        "line": 232,
+        "column": 0
+      },
+      "context": "const themes = new Map([",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "38",
+        "firefox": "13",
+        "safari": "8",
+        "edge": "12",
+        "chrome_android": "38",
+        "firefox_android": "14",
+        "safari_ios": "8"
+      },
+      "polyfill": "es6-map polyfill"
+    },
+    {
+      "feature": "set",
+      "featureId": "set",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.tsx",
+        "line": 244,
+        "column": 0
+      },
+      "context": "const availableActions = new Set(['close', 'share', 'submit']);",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "38",
+        "firefox": "13",
+        "safari": "8",
+        "edge": "12",
+        "chrome_android": "38",
+        "firefox_android": "14",
+        "safari_ios": "8"
+      },
+      "polyfill": "es6-set polyfill"
+    },
+    {
+      "feature": "background",
+      "featureId": "background",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 10,
+        "column": 3
+      },
+      "context": "background: rgba(0, 0, 0, 0.5)",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "z-index",
+      "featureId": "z-index",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 12,
+        "column": 3
+      },
+      "context": "z-index: 1000",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "3",
+        "safari": "1",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "1"
+      }
+    },
+    {
+      "feature": "background",
+      "featureId": "background",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 17,
+        "column": 3
+      },
+      "context": "background: white",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "padding",
+      "featureId": "padding",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 19,
+        "column": 3
+      },
+      "context": "padding: 2rem",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "padding",
+      "featureId": "padding",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 29,
+        "column": 5
+      },
+      "context": "padding: 3rem",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "grid-template-columns",
+      "featureId": "grid-template-columns",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 36,
+        "column": 3
+      },
+      "context": "grid-template-columns: 1fr auto",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "66",
+        "firefox": "76",
+        "safari": "12.1",
+        "edge": "79",
+        "chrome_android": "66",
+        "firefox_android": "79",
+        "safari_ios": "12.2"
+      }
+    },
+    {
+      "feature": "gap",
+      "featureId": "gap",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 38,
+        "column": 3
+      },
+      "context": "gap: 1rem",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "84",
+        "firefox": "63",
+        "safari": "14.1",
+        "edge": "84",
+        "chrome_android": "84",
+        "firefox_android": "63",
+        "safari_ios": "14.5"
+      },
+      "polyfill": "Use margin/padding for older browsers",
+      "alternative": "Use margin or padding properties"
+    },
+    {
+      "feature": "font-size",
+      "featureId": "font-size",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 43,
+        "column": 3
+      },
+      "context": "font-size: clamp(1.5rem, 4vw, 2rem)",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "1",
+        "safari": "1",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "1"
+      }
+    },
+    {
+      "feature": "background",
+      "featureId": "background",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 48,
+        "column": 3
+      },
+      "context": "background: none",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "border",
+      "featureId": "border",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 49,
+        "column": 3
+      },
+      "context": "border: none",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "font-size",
+      "featureId": "font-size",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 50,
+        "column": 3
+      },
+      "context": "font-size: 1.5rem",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "1",
+        "safari": "1",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "1"
+      }
+    },
+    {
+      "feature": "padding",
+      "featureId": "padding",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 52,
+        "column": 3
+      },
+      "context": "padding: 0.5rem",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "justify-content",
+      "featureId": "justify-content",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 72,
+        "column": 3
+      },
+      "context": "justify-content: flex-end",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "29",
+        "firefox": "28",
+        "safari": "9",
+        "edge": "12",
+        "chrome_android": "29",
+        "firefox_android": "28",
+        "safari_ios": "9"
+      }
+    },
+    {
+      "feature": "gap",
+      "featureId": "gap",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 73,
+        "column": 3
+      },
+      "context": "gap: 1rem",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "84",
+        "firefox": "63",
+        "safari": "14.1",
+        "edge": "84",
+        "chrome_android": "84",
+        "firefox_android": "63",
+        "safari_ios": "14.5"
+      },
+      "polyfill": "Use margin/padding for older browsers",
+      "alternative": "Use margin or padding properties"
+    },
+    {
+      "feature": "padding",
+      "featureId": "padding",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 78,
+        "column": 3
+      },
+      "context": "padding: 0.75rem 1.5rem",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "border",
+      "featureId": "border",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 79,
+        "column": 3
+      },
+      "context": "border: none",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "font-size",
+      "featureId": "font-size",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 81,
+        "column": 3
+      },
+      "context": "font-size: 1rem",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "1",
+        "safari": "1",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "1"
+      }
+    },
+    {
+      "feature": "background",
+      "featureId": "background",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 87,
+        "column": 3
+      },
+      "context": "background: linear-gradient(135deg, #007acc, #0056b3)",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "transform",
+      "featureId": "transform",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 92,
+        "column": 3
+      },
+      "context": "transform: translateY(-1px)",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "36",
+        "firefox": "16",
+        "safari": "9",
+        "edge": "12",
+        "chrome_android": "36",
+        "firefox_android": "16",
+        "safari_ios": "9"
+      }
+    },
+    {
+      "feature": "background",
+      "featureId": "background",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 97,
+        "column": 3
+      },
+      "context": "background: transparent",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "border",
+      "featureId": "border",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 99,
+        "column": 3
+      },
+      "context": "border: 1px solid #ddd",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "padding",
+      "featureId": "padding",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 105,
+        "column": 5
+      },
+      "context": "padding: 1rem",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "flex-direction",
+      "featureId": "flex-direction",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 118,
+        "column": 5
+      },
+      "context": "flex-direction: column",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "29",
+        "firefox": "28",
+        "safari": "9",
+        "edge": "12",
+        "chrome_android": "29",
+        "firefox_android": "28",
+        "safari_ios": "9"
+      }
+    },
+    {
+      "feature": "aspect-ratio",
+      "featureId": "aspect-ratio",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 129,
+        "column": 5
+      },
+      "context": "aspect-ratio: 16/9",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "88",
+        "firefox": "89",
+        "safari": "15",
+        "edge": "88",
+        "chrome_android": "88",
+        "firefox_android": "89",
+        "safari_ios": "15"
+      },
+      "alternative": "Use padding-bottom percentage technique"
+    },
+    {
+      "feature": "z-index",
+      "featureId": "z-index",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 148,
+        "column": 3
+      },
+      "context": "z-index: var(--modal-z-index)",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "3",
+        "safari": "1",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "1"
+      }
+    },
+    {
+      "feature": "var",
+      "featureId": "var",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 148,
+        "column": 3
+      },
+      "context": "z-index: var(--modal-z-index)",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "1",
+        "safari": "≤4",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "≤3.2"
+      }
+    },
+    {
+      "feature": "background",
+      "featureId": "background",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 149,
+        "column": 3
+      },
+      "context": "background: var(--modal-backdrop)",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "4",
+        "safari": "5",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "5"
+      }
+    },
+    {
+      "feature": "var",
+      "featureId": "var",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 149,
+        "column": 3
+      },
+      "context": "background: var(--modal-backdrop)",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "1",
+        "safari": "≤4",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "≤3.2"
+      }
+    },
+    {
+      "feature": "var",
+      "featureId": "var",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 153,
+        "column": 3
+      },
+      "context": "border-radius: var(--modal-border-radius)",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "1",
+        "firefox": "1",
+        "safari": "≤4",
+        "edge": "12",
+        "chrome_android": "18",
+        "firefox_android": "4",
+        "safari_ios": "≤3.2"
+      }
+    },
+    {
+      "feature": ":focus-visible",
+      "featureId": ":focus-visible",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 61,
+        "column": 1
+      },
+      "context": "selector: .close-button:focus-visible",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "86",
+        "firefox": "85",
+        "safari": "15.4",
+        "edge": "86",
+        "chrome_android": "86",
+        "firefox_android": "85",
+        "safari_ios": "15.4"
+      }
+    },
+    {
+      "feature": "@supports",
+      "featureId": "@supports",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 127,
+        "column": 1
+      },
+      "context": "@supports (aspect-ratio: 16/9)",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "28",
+        "firefox": "22",
+        "safari": "9",
+        "edge": "12",
+        "chrome_android": "28",
+        "firefox_android": "22",
+        "safari_ios": "9"
+      }
+    },
+    {
+      "feature": "aspect-ratio",
+      "featureId": "aspect-ratio",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 127,
+        "column": 1
+      },
+      "context": "@supports (aspect-ratio: 16/9) {\n  .modal-video {\n    aspect-ratio: 16/9; /* Baseline: newly-availab...",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "88",
+        "firefox": "89",
+        "safari": "15",
+        "edge": "88",
+        "chrome_android": "88",
+        "firefox_android": "89",
+        "safari_ios": "15"
+      },
+      "alternative": "Use padding-bottom percentage technique"
+    },
+    {
+      "feature": "@supports",
+      "featureId": "@supports",
+      "location": {
+        "file": "/home/user/baselineflow/examples/sample-project/src/components/Modal.css",
+        "line": 134,
+        "column": 1
+      },
+      "context": "@supports (display: contents)",
+      "baseline": "widely-available",
+      "severity": "info",
+      "browsers": {
+        "chrome": "28",
+        "firefox": "22",
+        "safari": "9",
+        "edge": "12",
+        "chrome_android": "28",
+        "firefox_android": "22",
+        "safari_ios": "9"
+      }
+    }
+  ],
+  "modernizationOpportunities": [
+    {
+      "category": "css",
+      "oldFeature": "Legacy layout techniques",
+      "newFeature": "Modern CSS features",
+      "baselineStatus": "newly-available",
+      "impact": "high",
+      "effort": "medium",
+      "description": "Adopt newly available CSS features for better layouts and maintainability"
+    }
+  ],
+  "statistics": {
+    "fileTypeDistribution": {
+      "css": 68,
+      "tsx": 11
+    },
+    "baselineDistribution": {
+      "limited": 29,
+      "newly-available": 6,
+      "widely-available": 44
+    },
+    "topFeatures": [
+      {
+        "feature": "background",
+        "count": 6
+      },
+      {
+        "feature": "display",
+        "count": 5
+      },
+      {
+        "feature": "async-await",
+        "count": 5
+      },
+      {
+        "feature": "padding",
+        "count": 5
+      },
+      {
+        "feature": "width",
+        "count": 4
+      },
+      {
+        "feature": "margin",
+        "count": 3
+      },
+      {
+        "feature": "max-width",
+        "count": 3
+      },
+      {
+        "feature": "font-size",
+        "count": 3
+      },
+      {
+        "feature": "border",
+        "count": 3
+      },
+      {
+        "feature": "var",
+        "count": 3
+      }
+    ],
+    "riskScore": 39
+  }
+}

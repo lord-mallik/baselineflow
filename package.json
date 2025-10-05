@@ -1,0 +1,68 @@
+{
+  "name": "baselineflow",
+  "version": "1.0.0",
+  "description": "AI-powered CI/CD integration for Baseline web feature validation",
+  "main": "dist/index.js",
+  "bin": {
+    "baselineflow": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "prepare": "npm run build",
+    "package": "node scripts/package-action.js"
+  },
+  "keywords": [
+    "baseline",
+    "web-features",
+    "ci-cd",
+    "browser-compatibility",
+    "lint",
+    "developer-tools"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "web-features": "^1.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0",
+    "@babel/types": "^7.23.0",
+    "@actions/core": "^1.10.0",
+    "postcss": "^8.4.0",
+    "postcss-selector-parser": "^6.0.0",
+    "glob": "^10.3.0",
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "ora": "^7.0.0",
+    "boxen": "^7.1.0",
+    "table": "^6.8.0",
+    "yaml": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0",
+    "ts-jest": "^29.0.0",
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE",
+    "action.yml"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/baselineflow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/baselineflow/issues"
+  },
+  "homepage": "https://github.com/yourusername/baselineflow#readme"
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"JSONReporter.d.ts","sourceRoot":"","sources":["../../src/reporters/JSONReporter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,UAAU,CAAC;AAE1C;;GAEG;AACH,qBAAa,YAAY;IAEhB,cAAc,CAAC,MAAM,EAAE,cAAc,GAAG,MAAM;IAqCrD,OAAO,CAAC,aAAa;IAmBrB,OAAO,CAAC,kBAAkB;IAoC1B,OAAO,CAAC,kBAAkB;CAY3B"}
